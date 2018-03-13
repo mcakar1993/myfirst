@@ -1,0 +1,14 @@
+<div style="text-align:center">
+<h1>
+  Welcome to {{ title }}!
+</h1>
+
+<a routerLink = "/employee" >Employee</a>
+<a routerLink = "/company" >Company</a>
+<a routerLink = "company/28" >Company with params..</a>
+
+<a [routerLink]="['employee', 2,4]" [queryParams]="{ page: 99 }">Go to Page 99</a>
+
+
+<router-outlet></router-outlet>
+</div>
