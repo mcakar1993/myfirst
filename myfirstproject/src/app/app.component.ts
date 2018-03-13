@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
 
 export class AppComponent 
 {
-  title = 'application with new branch request.';
+  title = 'Changed by others in github project';
 }
